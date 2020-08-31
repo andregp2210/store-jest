@@ -10,12 +10,12 @@ describe('<Footer />', () => {
   });
   test('Component renders title', () => {
     expect(footer.find('[data-testid="footerTitle"]').text()).toEqual(
-      'Platzi Store'
+      'Platzi Stores'
     );
   });
   test('Component renders rights', () => {
     expect(footer.find('.Footer-copy').text()).toEqual(
-      'Todos los Izquierdos Reservados'
+      'Todos los Izquierdos Reservadoss'
     );
   });
 });
