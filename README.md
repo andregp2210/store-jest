@@ -70,5 +70,5 @@ Compila el proyecto y lo levanta en la ruta [http://localhost:9000](http://local
 
 Para poder generar el proyecto se debe configurar la clave `homepage`, ubicada en el archivo `package.json` con la ruta del entorno de publicación final. <br>
 El script a ejecutar también dependerá del entorno en el que será publicado el proyecto:<br>
-    1.- Producción: Se deberá ejecutar el comando `npm run build`, este comando usará el archivo .env.production .<br>
-    2.- Desarrollo: Se deberá usar el comando `npm run build:staging`, este comando usará el archivo .env.staging .
+    1. Producción: Se deberá ejecutar el comando `npm run build`, este comando usará el archivo .env.production .<br>
+    2. Desarrollo: Se deberá usar el comando `npm run build:staging`, este comando usará el archivo .env.staging .
