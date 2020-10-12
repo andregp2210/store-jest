@@ -23,7 +23,7 @@ Para instalar todas las dependencias
 # install dependencies
 npm install
 ```
-Configurar el archivo `.env.local` con las variables de entorno locales
+Configurar el archivo `.env.local` con las variables de entorno locales.
 
 ## Scripts disponibles
 
@@ -37,17 +37,17 @@ La página se recargara automáticamente si se realizan cambios.
 
 ### `npm test`
 
-Ejecuta el test runner en watch mode<br>
+Ejecuta el test runner en watch mode.<br>
 
 ### `npm run build`
 
 Compila el proyecto para producción dentro del folder `build`.<br>
-Es importante tener correctamente configurado el archivo .env.production ubicado en la raíz del directorio
+Es importante tener correctamente configurado el archivo .env.production ubicado en la raíz del directorio.
 
 ### `npm run build:staging`
 
 Compila el proyecto para desarrollo dentro del folder `build`.<br>
-Es importante tener correctamente configurado el archivo .env.staging ubicado en la raíz del directorio
+Es importante tener correctamente configurado el archivo .env.staging ubicado en la raíz del directorio.
 
 ### `npm run lint`
 
@@ -68,7 +68,7 @@ Compila el proyecto y lo levanta en la ruta [http://localhost:9000](http://local
 
 ## Despliegue
 
-Para poder generar el proyecto se debe configurar el `homepage`, ubicado en `package.json`. <br>
-La ruta dependerá del dominio en el que estará ubicado el proyecto.<br>
-Si el proyecto es para producción se deberá ejecutar el comando `npm run build`, este comando usará el archivo .env.production .<br>
-Si es para desarrollo se deberá usar el comando `npm run build:staging`, este comando usará el archivo .env.staging .
+Para poder generar el proyecto se debe configurar la clave `homepage`, ubicada en el archivo `package.json` con la ruta del entorno de publicación final. <br>
+El script a ejecutar también dependerá del entorno en el que será publicado el proyecto:<br>
+    1.- Producción: Se deberá ejecutar el comando `npm run build`, este comando usará el archivo .env.production .<br>
+    2.- Desarrollo: Se deberá usar el comando `npm run build:staging`, este comando usará el archivo .env.staging .
