@@ -4,7 +4,7 @@
 
 ## Tabla de Contenidos
 - [Updating to New Releases](#updating-to-new-releases)
-- [Preparación del proyecto](#installing-a-dependency)
+- [Preparación del proyecto](#preparación-del-proyecto)
 - [Scripts disponibles](#available-scripts)
     - [npm start](#npm-start)
     - [npm test](#npm-test)
