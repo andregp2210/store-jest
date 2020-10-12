@@ -3,9 +3,8 @@
 > Sistema web e-commerce
 
 ## Tabla de Contenidos
-- [Updating to New Releases](#updating-to-new-releases)
 - [Preparación del proyecto](#preparación-del-proyecto)
-- [Scripts disponibles](#available-scripts)
+- [Scripts disponibles](#scripts-disponibles)
     - [npm start](#npm-start)
     - [npm test](#npm-test)
     - [npm run build](#npm-run-build)
@@ -14,14 +13,8 @@
     - [npm run lint:fix](#npm-run-lint-fix)
     - [npm run serve:build](#npm-run-serve-build)
     - [npm run test:server](#npm-run-test-server)
-- [Despliegue](#deployment)
+- [Despliegue](#despliegue)
 
-## Updating to New Releases
-
-Create React App is divided into two packages:
-
-* `create-react-app` is a global command-line utility that you use to create new projects.
-* `react-scripts` is a development dependency in the generated projects (including this one).
 ## Preparación del proyecto
 
 Para instalar todas las dependencias
