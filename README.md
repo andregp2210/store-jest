@@ -3,7 +3,7 @@
 > Sistema web e-commerce
 
 ## Tabla de Contenidos
-- [Preparación del proyecto](#installing-a-dependency)
+- [Preparación del proyecto]
 - [Scripts disponibles](#available-scripts)
     - [npm start](#npm-start)
     - [npm test](#npm-test)
